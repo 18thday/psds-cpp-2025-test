@@ -1,6 +1,7 @@
 #include <stdexcept>
+#include <vector>
 
 
-/* return_type */ Filter(/* args */) {
+void Filter(std::vector<int>& vec, bool (*func)(int)) {
     throw std::runtime_error{"Not implemented"};
 }
